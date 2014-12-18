@@ -1,0 +1,14 @@
+[user]
+	name = user_name
+	email = exp@mail
+[alias]
+	difflog = log -p HEAD@{3.days.ago}
+	logg = log --graph --date=short --pretty='%C(yellow)%h%Creset %C(black bold)%an%Creset %Cgreen[%cd]%Creset %s %C(cyan bold)%d%Creset' --decorate
+	logs = log --pretty=format:'%C(yellow)%h%Creset - %C(black bold)%an%Creset %C(magenta)[%ai]%Creset %C(red)%s%Creset' --name-status
+	diffc = diff --cached
+	lsf = ls-files -u
+
+[color]
+	ui = auto
+
+
